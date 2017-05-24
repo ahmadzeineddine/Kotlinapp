@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         val people = listOf(Person("hiba", 23), Person("Hassan", 25))
         trackBtn.setOnClickListener {
-            println("Hello world, I am updated Kotlin")
+            println("Hello world, I am updated Kotlin now")
             val eldest = people.maxBy { it.age }
             if(eldest!=null) println("The eldest is "+eldest.name)
         }
